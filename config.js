@@ -7,9 +7,9 @@ global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user
 global.repox = 'raselcomel/RxR-Bot'
 global.branx = 'master'
 //=========== Watermark & Url ==========//
-global.wm = '© rཽᴀˢᵉˡ'
-global.wmtitle = '🌹 𝑪𝒐𝒎𝒆𝒍⋆𝑩𝒐𝒕 ⚚'
-global.wmbody = '🍃 𝑏𝑦 ༆ 𝑟𝑎𝑠𝑒𝑙  ཽ ྀ ྭ ྱ ྲ ཻ' 
+global.wm = '©alyatzy'
+global.wmtitle = '🌹 alya ⚚'
+global.wmbody = '🍃 by ༆ alya  ཽ ྀ ྭ ྱ ྲ ཻ' 
 global.wmlink = 'https://www.instagram.com/rasel.ganz'
 global.linkgc = 'https://chat.whatsapp.com/CUCsW6BWfmJLJwJgPQIaKM'
 global.linkmed = 'https://www.instagram.com/p/CH1A1c9J5pY/?utm_medium=copy_link'
@@ -19,14 +19,14 @@ global.wait = 'Tunggu sebentar ya sayang'
 global.eror = 'Maaf terjadi kesalahan, silahkan coba lagi nanti'
 
 //========= Url Template Button =========//
-global.dTux = 'WEBSITE'
-global.uRlx = 'bit.ly/AcellComel' //''
+global.dTux = 'WHATSAPP'
+global.uRlx = 'wa.me/62895324080019' //''
 //========= Call Template Button =========//
 global.dTcx = 'Add Me'
-global.nUmx = '+62 822-5604-8971' 
+global.nUmx = '999' 
 //================ Buttons ================//
 global.bTnx = [['DASHBOARD', '.say blum pasang:v']] //buttons map
-global.mediaMenu = 'https://telegra.ph/file/505b2a03d98bb3b8680e7.jpg'
+global.mediaMenu = 'https://pin.it/2kQmqem.jpg'
 global.lIm = 'Ⓛ'
 global.pRm = 'Ⓟ'
 global.uRl = 'Ⓤ'
@@ -55,7 +55,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = ''
-  var sticker_author = '               ig\n🔥 @rasel.ganz 🔥'
+  var sticker_author = ''
  } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -74,7 +74,7 @@ const cpack = fs.readFileSync("lib/colong.json")
 const ctickerpack = JSON.parse(cpack)
 if (ctickerpack.cpackname == '') {
   var colong_name = 'sikilinsut olang nylong tikell'
-  var colong_author = 'Ciss 📸\n\n\n\n\n\n\n\n\n\n\n\n@rasel.ganz'
+  var colong_author = 'Ciss 📸\n\n\n\n\n\n\n\n\n\n\n\n@alyaxzy'
  } else {
   var colong_name = ctickerpack.cpackname
   var colong_author = ctickerpack.cauthor
