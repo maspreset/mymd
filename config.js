@@ -4,13 +4,13 @@ global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Change/add own
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user has unlimited limit
 //====== Needed in plugin/update.js ======//
-global.repox = 'aresmodz/RxR-Bot'
+global.repox = 'alyatzy/RxR-Bot'
 global.branx = 'master'
 //=========== Watermark & Url ==========//
-global.wm = '© aresmodz'
-global.wmtitle = '🌹 aresmodz ⚚'
-global.wmbody = '🍃 aresmodz  ཽ ྀ ྭ ྱ ྲ ཻ' 
-global.wmlink = 'https://wa.me/6281802626072'
+global.wm = '©alya'
+global.wmtitle = '🌹 alyatzy ⚚'
+global.wmbody = '🍃 alyatzy  ཽ ྀ ྭ ྱ ྲ ཻ' 
+global.wmlink = 'https://wa.me/62895324080019'
 global.linkgc = 'https://chat.whatsapp.com/HwjoGIhIUb89hhiiHII9kk'
 global.linkmed = 'https://www.instagram.com/p/CH1A1c9J5pY/?utm_medium=copy_link'
 
@@ -20,7 +20,7 @@ global.eror = 'Maaf terjadi kesalahan, silahkan coba lagi nanti'
 
 //========= Url Template Button =========//
 global.dTux = 'WHATSAPP'
-global.uRlx = 'wa.me/6281802626072' //''
+global.uRlx = 'wa.me/62895324080019' //''
 //========= Call Template Button =========//
 global.dTcx = 'click'
 global.nUmx = 'i love you' 
@@ -55,7 +55,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = ''
-  var sticker_author = '               \n🔥 @aresmodz'
+  var sticker_author = '               \n🔥 @alyatzy'
  } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -74,7 +74,7 @@ const cpack = fs.readFileSync("lib/colong.json")
 const ctickerpack = JSON.parse(cpack)
 if (ctickerpack.cpackname == '') {
   var colong_name = 'sikilinsut olang nylong tikell'
-  var colong_author = 'Ciss 📸\n\n\n\n\n\n\n\n\n\n\n\n@aresmodz'
+  var colong_author = 'Ciss 📸\n\n\n\n\n\n\n\n\n\n\n\n@alyatzy'
  } else {
   var colong_name = ctickerpack.cpackname
   var colong_author = ctickerpack.cauthor
